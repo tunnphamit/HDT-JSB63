@@ -1,0 +1,17 @@
+
+1. Ngôn ngữ lập trình: được con người tạo ra để
+ra lệnh cho máy tính thực hiện công việc nào đó
+2. Máy tính chỉ hiểu được ngôn ngữ máy dạng bit: 
+ VD: 0101011010
+ B => 66 
+
+3. Một số ngôn ngữ lập trình tiêu biểu: Python, C/C++, JS (Javascript), Java, ...
+- Website được cấu tạo từ các thành phần:
+ + HTML: Dựng khung cho trang Web
+ + CSS: Trang trí cho trang web (màu sắc, cách hiển thị,...)
+ + JS: TƯơng tác với người dùng (Nhấn nút, chuyển trang, ...) 
+        -> JS chạy trên nền của trình duyệt web 
+        
+ ...
+
+

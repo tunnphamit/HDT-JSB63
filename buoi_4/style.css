@@ -1,0 +1,29 @@
+
+body {
+    background-color: rgb(218, 218, 218);
+}
+
+.event-item {
+    /* 
+    - display
+        + inline: chỉ chiếm vừa đủ nội dung bên trong,
+                không set được width, height
+        + block: luôn chiếm hết chiều ngang (width) của
+                phần tử cha
+        + inline-block: chỉ chiếm vừa đủ nội dung bên trong,
+                nhưng vẫn set được width, height
+    */
+    display: inline-block;
+    width: 400px;
+    background-color: #fff;
+    margin: 8px;
+    border-radius: 10px;
+}
+.event-item img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h4, p, a {
+    padding: 8px;
+}

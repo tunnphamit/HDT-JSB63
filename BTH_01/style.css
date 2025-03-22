@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: navy;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+.banner {
+    background-image: url("https://anhngugalaxy.com/wp-content/uploads/2020/11/home_banner_1920_420px.jpg");
+    height: 600px;
+}
