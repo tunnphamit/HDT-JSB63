@@ -1,0 +1,48 @@
+
+/* Reset các thuộc tính của thẻ HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.register-banner img {
+    max-width: 460px;
+}
+
+.register-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.register-form {
+    padding: 12px;
+}
+
+.register-form .form-input {
+    margin-top: 12px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 6px;
+}
+.register-form button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+    background-color: rgb(34, 186, 232);
+}
+

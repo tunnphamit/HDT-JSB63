@@ -62,7 +62,6 @@ header .logo img {
 .services {
     display: flex;
     align-items: center;
-    margin-top: 30px;
 }
 .services .btn {
     min-width: 200px;
@@ -91,6 +90,7 @@ thì hay đổi css */
 }
 
 .video iframe {
+    margin: 30px 0px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
