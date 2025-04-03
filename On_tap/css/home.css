@@ -1,0 +1,27 @@
+
+/* Option 1:  */
+/* .hotline, 
+.logo,
+.functions {
+    display: inline-block;
+} */
+
+/* Option 2: (Recommend) */
+header {
+    display: flex;
+
+    /* Can theo chieu ngang */
+    justify-content: space-around;
+
+    /* Can theo chieu doc */
+    align-items: center;
+
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    
+}
+
+header .logo img {
+    width: 250px;
+}
