@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+
+    <!-- Link thư viện tạo icon: Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link thư viện Owl carousel để tạo Slide trên trang Web -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+<body>
+    
+    <div class="page-container">
+
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <img src="./src/img/Tunn2.png" alt="">
+            </div>
+
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="./services.html" class="nav-link">Dịch vụ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./hotel.html" class="nav-link">Khách sạn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Liên hệ</a>
+                </li>
+            </ul>
+
+            <div class="search-form">
+                <form action="">
+                    <div class="form-control">
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="author">
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+        </header>
+
+        <!-- Banner -->
+        <div class="banner-slide">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./src/img/beach-bg-3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./src/img/beach-bg-2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./src/img/beach-bg-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Introduce -->
+        <div class="introduce">
+            <div class="content">
+                <h3>Chào mừng đến với Hạ Long</h3>
+                <p>Chào mừng đến với Hạ Long</p>
+            </div>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iRM2YsHioB4?si=jRPSEYxmIJlvHPS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!-- Services -->
+
+        <!-- Footer -->
+        <footer></footer>
+
+    </div>
+
+    <!-- Link JS thư viện Owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            // nav:true,    
+            responsive:{
+                0:{
+                    items:1
+                },
+            }
+        })
+    </script>
+</body>
+</html>
